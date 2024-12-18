@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/activity_list/',
+  basePath: 'https://naeemazizboa.github.io/activities/',
   entryPoints: {
     '': () => import('./main.server.mjs')
   },
