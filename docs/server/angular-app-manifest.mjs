@@ -2,18 +2,18 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://naeemazizboa.github.io/activities/',
+  baseHref: '/activities/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/https://naeemazizboa.github.io/activities"
+    "route": "/activities"
   }
 ],
   assets: {
-    'index.csr.html': {size: 1563, hash: '123f05390265524ed76af0cf2019dd6a0f913817650af6ce2850dab94083ff46', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1972, hash: '072c35fb82949dd31614b1e0da49e041287102f503409146199473e36a15a0da', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 11230, hash: 'dd8f0c5ae9a16c7c339a337076f8f1e1f3bd91e725d9d76e52770e70455fb08c', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 1533, hash: '34aa38f9be2c8a2e1faf24bca3aee0889804bb6afede97d67885bb4b97196b2a', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1942, hash: '53f0a39ca69d2cae6cf162ee1477d03ecba704fcb387f3741a00572fd528ca3f', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 11200, hash: 'b805de4a3277cbcbe501c59a592de2625c281b41374e8304f1ea3b9c6efe8e1d', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-4MZRC2I4.css': {size: 50, hash: '8mvZ4jqSOjY', text: () => import('./assets-chunks/styles-4MZRC2I4_css.mjs').then(m => m.default)}
   },
 };
